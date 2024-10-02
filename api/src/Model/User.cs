@@ -18,7 +18,7 @@ namespace api.src.Models
         public required string Email {get; set;}
         [BirthDate]    
         public required DateOnly BirthDate {get; set;}
-        public int CategoryId { get; set; }
+        public int GenderId { get; set; }
 
         public Gender Gender { get; set; } = null!;
     }
